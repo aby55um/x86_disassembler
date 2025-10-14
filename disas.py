@@ -10,3 +10,29 @@ opcode_dict={
 	'15 id':'adc eax, imm32',
 	'rex.w + 15 id':'adc rax, imm32'
 }
+
+group1_prefix_dict={
+	'f0h':'lock',
+	'f2h':'repne/repz',
+	'f3h':'rep/repe/repz',
+	'f2h':'bnd' #with specific conditions
+}
+
+group2_prefix_dict={
+	'2eh':'CS segment override',
+	'36h':'SS segment override',
+	'3eh':'DS segment override',
+	'26h':'ES segment override',
+	'64h':'FS segment override',
+	'65h':'GS segment override',
+	'2Eh':'Branch not taken', #used only with Jcc instructions
+	'3eh':'Branch taken' #used only with Jcc instructions
+}
+
+group3_prefix_dict={
+	'66h':'Operand-size override'
+}
+
+group4_prefix_dict={
+	'67h':'Address-size override prefix'
+}
