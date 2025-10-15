@@ -1,5 +1,5 @@
 '''
-Instruction format for protected mode, real-address mode, and virtual-8086 mode (Intel manual vol 2 ch 2)
+Instruction format for protected mode, real-address mode, and virtual-8086 mode (Ie-32 mode) (Intel manual vol 2 ch 2)
 Instruction prefixes: prefixes of 1 byte each, in arbitrary order
 Opcode: 1-, 2-, or 3-byte opcode
 ModR/M: 1 byte (if required)
@@ -12,7 +12,7 @@ Immediate: Immediate data of 1, 2, or 4 bytes or none
  ====================== ======== ======== ===== ============== ===========
 
 ModR/M field:
-7    6 5          3 2   0
+ 7   6 5          3 2   0
  ===== ============ =====
 | Mod | Reg/Opcode | R/M |
  ===== ============ =====
@@ -22,6 +22,20 @@ SiB field:
  ======= ======= ======
 | Scale | Index | Base |
  ======= ======= ======
+
+
+Instruction format in Intel 64
+Legacy Prefixes: as in Ie-32: group 1, group 2 or group 3 (optional)
+REX Prefix (optional)
+Opcode: 1-, 2-, or 3-byte opcode
+ModR/M: 1 byte (if required)
+SiB: 1 byte (if required)
+Displacement: Address displacement of 1, 2, or 4 bytes
+Immediate: Immediate data of 1, 2, or 4 bytes or none
+
+ ================= ============ ======== ======== ===== ============== =========== 
+| Legacy Prefixes | REX Prefix | Opcode | ModR/M | SiB | Displacement | Immediate |
+ ================= ============ ======== ======== ===== ============== ===========
 
 '''
 
