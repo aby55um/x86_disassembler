@@ -1,3 +1,30 @@
+'''
+Instruction format for protected mode, real-address mode, and virtual-8086 mode (Intel manual vol 2 ch 2)
+Instruction prefixes: prefixes of 1 byte each, in arbitrary order
+Opcode: 1-, 2-, or 3-byte opcode
+ModR/M: 1 byte (if required)
+SiB: 1 byte (if required)
+Displacement: Address displacement of 1, 2, or 4 bytes or none
+Immediate: Immediate data of 1, 2, or 4 bytes or none
+
+ ====================== ======== ======== ===== ============== ===========
+| Instruction prefixes | Opcode | ModR/M | SiB | Displacement | Immediate |
+ ====================== ======== ======== ===== ============== ===========
+
+ModR/M field:
+7    6 5          3 2   0
+ ===== ============ =====
+| Mod | Reg/Opcode | R/M |
+ ===== ============ =====
+
+SiB field:
+ 7     6 5     3 2    0
+ ======= ======= ======
+| Scale | Index | Base |
+ ======= ======= ======
+
+'''
+
 opcode_dict={
 	'37':'aaa',
 	'd5 0a':'aad',
