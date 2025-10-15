@@ -36,3 +36,14 @@ group3_prefix_dict={
 group4_prefix_dict={
 	'67h':'Address-size override prefix'
 }
+
+'''
+Opcodes:
+One-byte opcode
+Two-byte opcode formats:
+-An escape opcode byte 0fH as the primary opcode and a second opcode byte
+-A mandatory prefix (66H, f2H or f3H), an escape opcode byte, plus two additional opcode bytes (same as previous bullet).
+Three-byte opcode formats:
+-An escape opcode byte 0fH as the primary opcode, plus two additional opcode bytes
+-a mandatory prefix (66H, f2H, or f3H), an escape opcode byte, plus two additional opcode bytes (same as previous bullet).
+'''
