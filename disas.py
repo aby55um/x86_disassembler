@@ -79,6 +79,27 @@ group4_prefix_dict={
 }
 
 '''
+instruction_1_assembly is the class of assembly (not machine code) instruction for protected mode, real-address mode and virtual-8086 mode
+'''
+
+class instruction_1_assembly:
+	def __init__(self, string):
+		self.string = string
+	def print(self):
+		print(self.string)
+
+
+print("Instruction string test: ")
+sstr = input()
+test_inst = instruction_1_assembly(sstr)
+test_inst.print()
+
+while True:
+	print("Instruction: ")
+	command = input()
+
+
+'''
 Opcodes:
 One-byte opcode
 Two-byte opcode formats:
