@@ -39,6 +39,8 @@ Immediate: Immediate data of 1, 2, or 4 bytes or none
 
 '''
 
+import re
+
 opcode_dict={
 	'37':'aaa',
 	'd5 0a':'aad',
@@ -90,7 +92,7 @@ class instruction_1_assembly:
 
 
 print("Instruction string test: ")
-sstr = input()
+sstr = re.sub(' +',' ',input().strip())
 test_inst = instruction_1_assembly(sstr)
 test_inst.print()
 
