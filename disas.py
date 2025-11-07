@@ -87,14 +87,30 @@ instruction_1_assembly is the class of assembly (not machine code) instruction f
 class instruction_1_assembly:
 	def __init__(self, string):
 		self.string = string
+		self.instruction_token_list = self.string.split()
+		if len(self.instruction_token_list)<4:
+			for i in range(4-len(self.instruction_token_list)):
+				self.instruction_token_list.append('')
+		self.mnemonic = self.instruction_token_list[0]
+		self.operand1 = self.instruction_token_list[1]
+		self.operand2 = self.instruction_token_list[2]
+		self.operand3 = self.instruction_token_list[3]
 	def print(self):
 		print(self.string)
+	def print_tokens(self):
+		for token in self.instruction_token_list:
+			print(token)
 
 
 print("Instruction string test: ")
 sstr = re.sub(' +',' ',input().strip())
 test_inst = instruction_1_assembly(sstr)
 test_inst.print()
+test_inst.print_tokens()
+print('mnemonic: ' + test_inst.mnemonic)
+print('operand 1: ' + test_inst.operand1)
+print('operand 2: ' + test_inst.operand2)
+print('operand 3: ' + test_inst.operand3)
 
 while True:
 	print("Instruction: ")
