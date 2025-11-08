@@ -101,10 +101,18 @@ class instruction_1_assembly:
 		for token in self.instruction_token_list:
 			print(token)
 
+assembly_instruction_list = [
+'aaa','aad','aam','aas','adc','adcx','add','addpd','addps','addsd','addss','addsubpd','addsubps','adox','aesdec','aesdec128kl','aesdec256kl','aesdeclast','aesdecwide128kl',
+'aesdecwide256kl','aesenc','aesenc128kl','aesenc256kl','aesenclast','aesencwide128kl','aesencwide256kl','aesimc','aeskeygenassist','and','andn','andnpd',
+'andnps','andpd','andps','arpl',
+]
+
 
 print("Instruction string test: ")
 sstr = re.sub(' +',' ',input().strip())
 test_inst = instruction_1_assembly(sstr)
+if test_inst.mnemonic not in assembly_instruction_list:
+	print('Not a vlaid instruction')
 test_inst.print()
 test_inst.print_tokens()
 print('mnemonic: ' + test_inst.mnemonic)
