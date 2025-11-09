@@ -113,16 +113,10 @@ sstr = re.sub(' +',' ',input().strip())
 test_inst = instruction_1_assembly(sstr)
 if test_inst.mnemonic not in assembly_instruction_list:
 	print('Not a vlaid instruction')
-test_inst.print()
-test_inst.print_tokens()
 print('mnemonic: ' + test_inst.mnemonic)
 print('operand 1: ' + test_inst.operand1)
 print('operand 2: ' + test_inst.operand2)
 print('operand 3: ' + test_inst.operand3)
-
-while True:
-	print("Instruction: ")
-	command = input()
 
 
 '''
