@@ -105,6 +105,19 @@ assembly_instruction_list = [
 'aaa','aad','aam','aas','adc','adcx','add','addpd','addps','addsd','addss','addsubpd','addsubps','adox','aesdec','aesdec128kl','aesdec256kl','aesdeclast','aesdecwide128kl',
 'aesdecwide256kl','aesenc','aesenc128kl','aesenc256kl','aesenclast','aesencwide128kl','aesencwide256kl','aesimc','aeskeygenassist','and','andn','andnpd',
 'andnps','andpd','andps','arpl',
+'bextr', 'blendpd', 'blendps', 'blendvpd', 'blendvps', 'blsi', 'blsmsk', 'blsr', 'bndcl', 'bndcu', 'bndcn', 'bndldx', 'bndmk', 'bndmov', 'bndstx', 'bound',
+'bsf', 'bsr', 'bswap', 'bt', 'btc', 'btr', 'bts', 'bzhi', 
+'call', 'cbw', 'cwde', 'cdqe', 'clac', 'clc', 'cld', 'cldemote', 'clflush', 'clflushopt', 'cli', 'clrssbsy', 'clts', 'clui', 'clwb', 'cmc', 'cmov',
+'cmp', 'cmpxadd', 'cmppd', 'cmpps', 'cmps', 'cmpsb', 'cmpsw', 'cmpsq', 'cmpsd', 'cmpss', 'cmpxchg', 'cmpxchgbb', 'cmpxchg16b', 'comisd', 'comiss', 'cpuid',
+'crc32', 'cvtdq2pd', 'cvtdq2ps', 'cvtpd2dq', 'cvtpd2pi', 'cvtpd2ps', 'cvtpi2pd', 'cvtpi2ps', 'cvtps2dq', 'cvtps2pd', 'cvtps2pi', 'cvtsd2si', 'cvtsd2ss',
+'cvtsi2sd', 'cvtsi2ss', 'cvtss2sd', 'cvtss2si', 'cvttpd2dq', 'cvttpd2pi', 'cvttps2dq', 'cvttps2pi', 'cvttsd2si', 'cvttss2si', 'cwd', 'cdq', 'cqo',
+'daa', 'das', 'dec', 'div', 'divpd', 'divps', 'divsd', 'divss', 'dppd', 'dpps', 
+'emms', 'encodekey128', 'encodekey256', 'endbr32', 'endbr64', 'enqcmd', 'enqcmds', 'enter', 'extractps', 
+'f2xm1', 'fabs', 'fadd', 'faddp', 'fiadd', 'fbld', 'fbstp', 'fchs', 'fclex', 'fnclex', 'fcmov', 'fcom', 'fcomp', 'fcompp', 'fcomi', 'fcomip', 'fucomi', 'fucomip',
+'fcos', 'fdecstp', 'fdiv', 'fdivp', 'fidiv', 'fdivr', 'fdivrp', 'fidivr', 'ffree', 'ficom', 'ficomp', 'fild', 'fincstp', 'finit', 'fninit', 'fist', 'fistp', 
+'fisttp', 'fld', 'fld1', 'fld2t', 'fldpi', 'fldlg2', 'fldln2', 'fldz', 'fldcw', 'fldenv', 'fmul', 'fmulp', 'fimul', 'fnop', 'fpatan', 'fprem', 'fprem1', 
+'fptan', 'frndint', 'frstor', 'fsave', 'fnsave', 'fscale', 'fsin', 'fsincos', 'fsqrt', 'fst', 'fstp', 'fstcw', 'fnstcw', 'fstenv', 'fnstenv', 'fstsw', 'fnstsw', 
+'fsub', 'fsubp', 'fisub', 'fsubr', 'fsubrp', 'fisubr', 'ftst', 'fucom', 'fucomp', 'fucompp', 'fxam', 'fxch', 'fxrstor', 'fxsave', 'fxtract', 'fyl2x', 'fyl2xp1'
 ]
 
 
