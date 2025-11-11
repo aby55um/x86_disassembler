@@ -117,7 +117,17 @@ assembly_instruction_list = [
 'fcos', 'fdecstp', 'fdiv', 'fdivp', 'fidiv', 'fdivr', 'fdivrp', 'fidivr', 'ffree', 'ficom', 'ficomp', 'fild', 'fincstp', 'finit', 'fninit', 'fist', 'fistp', 
 'fisttp', 'fld', 'fld1', 'fld2t', 'fldpi', 'fldlg2', 'fldln2', 'fldz', 'fldcw', 'fldenv', 'fmul', 'fmulp', 'fimul', 'fnop', 'fpatan', 'fprem', 'fprem1', 
 'fptan', 'frndint', 'frstor', 'fsave', 'fnsave', 'fscale', 'fsin', 'fsincos', 'fsqrt', 'fst', 'fstp', 'fstcw', 'fnstcw', 'fstenv', 'fnstenv', 'fstsw', 'fnstsw', 
-'fsub', 'fsubp', 'fisub', 'fsubr', 'fsubrp', 'fisubr', 'ftst', 'fucom', 'fucomp', 'fucompp', 'fxam', 'fxch', 'fxrstor', 'fxsave', 'fxtract', 'fyl2x', 'fyl2xp1'
+'fsub', 'fsubp', 'fisub', 'fsubr', 'fsubrp', 'fisubr', 'ftst', 'fucom', 'fucomp', 'fucompp', 'fxam', 'fxch', 'fxrstor', 'fxsave', 'fxtract', 'fyl2x', 'fyl2xp1',
+'gf2pbaffineinvqb', 'gf2pbaffineqb', 'gf2p8mulb', 
+'haddpd', 'haddps', 'hlt', 'hreset', 'hsubpd', 'hsubps', 
+'idiv', 'imul', 'in', 'inc', 'incsspd', 'incsspq', 'ins', 'insb', 'insw', 'insd', 'insertps', 'int', 'int0', 'int1', 'int3', 'invd', 'invlpg', 'invpcid', 
+'iret', 'iretd', 'iretq',
+'ja', 'jae', 'jb', 'jbe', 'jc', 'jcxz', 'jecxz', 'jrcxz', 'je', 'jg', 'jge', 'jl', 'jle', 'jna', 'jnae', 'jnb', 'jnbe', 'jnc', 'jne', 'jng', 'jnge', 'jnl',
+'jnle', 'jno', 'jnp', 'jns', 'jnz', 'jo', 'jp', 'jpe', 'jpo', 'js', 'jz', 'jmp', 
+'kaddw', 'kaddb', 'kaddq', 'kaddd', 'kandnw', 'kandnb', 'kandnq', 'kandnd', 'kandw', 'kandb', 'kandq', 'kandd', 'kmovw', 'kmovb', 'kmovq', 'kmovd', 'knotw', 
+'knotb', 'knotq', 'knotd', 'kortestw', 'kortestb', 'kortestq', 'kortestd', 'korw', 'korb', 'korq', 'kord', 'kshiftw', 'kshiftb', 'kshiftq', 'kshiftld', 
+'kshiftw', 'kshiftrb', 'kshiftrq', 'kshiftrd', 'ktestw', 'ktestb', 'ktestq', 'ktestd', 'kunpckbw', 'kunpckwd', 'kunpckdq', 'kxnorw', 'kxnorb', 'kxnorq', 'kxnord', 
+'kxorw', 'kxorb', 'kxorq', 'kxord'
 ]
 
 
