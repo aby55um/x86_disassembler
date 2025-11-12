@@ -127,7 +127,9 @@ assembly_instruction_list = [
 'kaddw', 'kaddb', 'kaddq', 'kaddd', 'kandnw', 'kandnb', 'kandnq', 'kandnd', 'kandw', 'kandb', 'kandq', 'kandd', 'kmovw', 'kmovb', 'kmovq', 'kmovd', 'knotw', 
 'knotb', 'knotq', 'knotd', 'kortestw', 'kortestb', 'kortestq', 'kortestd', 'korw', 'korb', 'korq', 'kord', 'kshiftw', 'kshiftb', 'kshiftq', 'kshiftld', 
 'kshiftw', 'kshiftrb', 'kshiftrq', 'kshiftrd', 'ktestw', 'ktestb', 'ktestq', 'ktestd', 'kunpckbw', 'kunpckwd', 'kunpckdq', 'kxnorw', 'kxnorb', 'kxnorq', 'kxnord', 
-'kxorw', 'kxorb', 'kxorq', 'kxord'
+'kxorw', 'kxorb', 'kxorq', 'kxord',
+'lahf', 'lar', 'lddqu', 'ldmxcsr', 'lds', 'les', 'lfs', 'lgs', 'lss', 'ldtilecfg', 'lea', 'leave', 'lfence', 'lgdt', 'lidt', 'lldt', 'lmsw', 'loadiwkey',
+'lock', 'lods', 'lodsb', 'lodsw', 'lodsd', 'lodsq', 'loop', 'loopcc', 'lsl', 'ltr', 'lzcnt'
 ]
 
 
