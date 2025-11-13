@@ -129,7 +129,12 @@ assembly_instruction_list = [
 'kshiftw', 'kshiftrb', 'kshiftrq', 'kshiftrd', 'ktestw', 'ktestb', 'ktestq', 'ktestd', 'kunpckbw', 'kunpckwd', 'kunpckdq', 'kxnorw', 'kxnorb', 'kxnorq', 'kxnord', 
 'kxorw', 'kxorb', 'kxorq', 'kxord',
 'lahf', 'lar', 'lddqu', 'ldmxcsr', 'lds', 'les', 'lfs', 'lgs', 'lss', 'ldtilecfg', 'lea', 'leave', 'lfence', 'lgdt', 'lidt', 'lldt', 'lmsw', 'loadiwkey',
-'lock', 'lods', 'lodsb', 'lodsw', 'lodsd', 'lodsq', 'loop', 'loopcc', 'lsl', 'ltr', 'lzcnt'
+'lock', 'lods', 'lodsb', 'lodsw', 'lodsd', 'lodsq', 'loop', 'loopcc', 'lsl', 'ltr', 'lzcnt',
+'maskmovdqu', 'maskmovq', 'maxpd', 'maxps', 'maxsd', 'maxss', 'mfence', 'minpd', 'minps', 'minsd', 'minss', 'monitor', 'mov', 'movapd', 'movaps', 'movbe',
+'movddup', 'movdir648', 'movdiri', 'movd', 'movq', 'movdq2q', 'movdqa', 'vmovdqa32', 'vmovdqa64', 'movdqu', 'vmovdqu8', 'vmovdqu16', 'vmovdqu32', 'vmovdqu64',
+'movhlps', 'movhpd', 'movhps', 'movlhps', 'movlpd', 'movlps', 'movmskpd', 'movmskps', 'movntdq', 'movntdqa', 'movntdi', 'movntpd', 'movntps', 'movntq', 
+'movq', 'movq2dq', 'movsd', 'movshdup', 'movsldup', 'movs', 'movsb', 'movsw', 'movsd', 'movsq', 'movss', 'movsx', 'movsxd', 'movupd', 'movups', 'movzx',
+'mpsadbw', 'mul', 'mulpd', 'mulps', 'mulsd', 'mulss', 'mulx', 'mwait'
 ]
 
 
