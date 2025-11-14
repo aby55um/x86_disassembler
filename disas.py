@@ -134,7 +134,19 @@ assembly_instruction_list = [
 'movddup', 'movdir648', 'movdiri', 'movd', 'movq', 'movdq2q', 'movdqa', 'vmovdqa32', 'vmovdqa64', 'movdqu', 'vmovdqu8', 'vmovdqu16', 'vmovdqu32', 'vmovdqu64',
 'movhlps', 'movhpd', 'movhps', 'movlhps', 'movlpd', 'movlps', 'movmskpd', 'movmskps', 'movntdq', 'movntdqa', 'movntdi', 'movntpd', 'movntps', 'movntq', 
 'movq', 'movq2dq', 'movsd', 'movshdup', 'movsldup', 'movs', 'movsb', 'movsw', 'movsd', 'movsq', 'movss', 'movsx', 'movsxd', 'movupd', 'movups', 'movzx',
-'mpsadbw', 'mul', 'mulpd', 'mulps', 'mulsd', 'mulss', 'mulx', 'mwait'
+'mpsadbw', 'mul', 'mulpd', 'mulps', 'mulsd', 'mulss', 'mulx', 'mwait',
+'neg', 'nop', 'not', 
+'or', 'orpd', 'orps', 'out', 'outs', 'outsb', 'outsw', 'outsd', 
+'pabsb', 'pabsw', 'pabsd', 'pabsq', 'packsswb', 'packssdw', 'packusdw', 'packuswb', 'paddb', 'paddw', 'paddd', 'paddq', 'paddsb', 'paddsw', 'paddusb', 
+'paddusw', 'palignr', 'pand', 'pandn', 'pause', 'pavgb', 'pavgw', 'pblendvb', 'pblendw', 'pclmulqdq', 'pcmpeqb', 'pcmpeqw', 'pcmpeqd', 'pcmpeqq', 'pcmpestri',
+'pcmpestrm', 'pcmpgtb', 'pcmpgtw', 'pcmpgtd', 'pcmpgtq', 'pcmpistri', 'pcmpistrm', 'pconfig', 'pdep', 'pext', 'pextrb', 'pextrd', 'pextrq', 'pextrw', 'phaddsw',
+'phaddw', 'phaddd', 'phminposuw', 'phsubsw', 'phsubw', 'phsubd', 'pinsrb', 'pinsrd', 'pinsrq', 'pinsrw', 'pmaddubsw', 'pmaddwd', 'pmaxsb', 'pmaxsw', 'pmaxsd',
+'pmaxsq', 'pmaxub', 'pmaxuw', 'pmaxud', 'pmaxuq', 'pminsb', 'pminsw', 'pminsd', 'pminsq', 'pminub', 'pminuw', 'pminud', 'pminuq', 'pmovmskb', 'pmovsx', 'pmovzx',
+'pmuldq', 'pmulhrsw', 'pmulhuw', 'pmulhw', 'pmulld', 'pmullq', 'pmullw', 'pmulldq', 'pop', 'popa', 'popad', 'popcnt', 'popf', 'popfd', 'popfq', 'por', 
+'prefetchh', 'prefetchw', 'psadbw', 'pshufb', 'pshufd', 'pshufhw', 'pshuflw', 'pshufw', 'psignb', 'psignw', 'psignd', 'pslldq', 'psllw', 'pslld', 'psllq', 
+'psraw', 'psrad', 'psraq', 'psrldq', 'psrlw', 'psrld', 'psrlq', 'psubb', 'psubw', 'psubd', 'psubq', 'psubsb', 'psubsw', 'psubusb', 'psubusw', 'ptest', 
+'ptwrite', 'punpckhbw', 'punpckhwd', 'punpckhdq', 'punpckhqdq', 'punpcklbw', 'punpcklwd', 'punpckldq', 'punpcklqdq', 'push', 'pusha', 'pushad', 'pushf',
+'pushfd', 'pushfq', 'pxor', 
 ]
 
 
