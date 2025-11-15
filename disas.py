@@ -147,6 +147,13 @@ assembly_instruction_list = [
 'psraw', 'psrad', 'psraq', 'psrldq', 'psrlw', 'psrld', 'psrlq', 'psubb', 'psubw', 'psubd', 'psubq', 'psubsb', 'psubsw', 'psubusb', 'psubusw', 'ptest', 
 'ptwrite', 'punpckhbw', 'punpckhwd', 'punpckhdq', 'punpckhqdq', 'punpcklbw', 'punpcklwd', 'punpckldq', 'punpcklqdq', 'push', 'pusha', 'pushad', 'pushf',
 'pushfd', 'pushfq', 'pxor', 
+'rcl', 'rcr', 'rol', 'ror', 'rcpps', 'rcpss', 'rdfsbase', 'rdgsbase', 'rdmsr', 'rdmsrlist', 'rdpid', 'rdpkru', 'rdpmc', 'rdrand', 'rdseed', 'rdsspd', 
+'rdsspq', 'rdtscp', 'rdtsc', 'rep', 'repe', 'repz', 'repne', 'repnz', 'ret', 'rorx', 'roundpd', 'roundps', 'roundsd', 'roundss', 'rsm', 'rsqrtps', 'rsqrtss',
+'rstorssp', 
+'sahf', 'sal', 'sar', 'shl', 'shr', 'sarx', 'shlx', 'shrx', 'saveprevssp', 'sbb', 'scas', 'scasb', 'scasw', 'scasd', 'senduipi', 'serialize', 'setcc',
+'setssbsy', 'sfence', 'sgdt', 'sha1msg1', 'sha1msg2', 'sha1nexte', 'sha1rnds4', 'sha256msg1', 'sha256msg2', 'sha256rnds2', 'shld', 'shrd', 'shufpd', 
+'shufps', 'sidt', 'sldt', 'smsw', 'sqrtpd', 'sqrtps', 'sqrtsd', 'sqrtss', 'stac', 'stc', 'std', 'sti', 'stmxcsr', 'stos', 'stosb', 'stosw', 'stosd',
+'stosq', 'str', 'sttilecfg', 'stui', 'sub', 'subpd', 'subps', 'subsd', 'subss', 'swapgs', 'syscall', 'sysenter', 'sysexit', 'sysret', 
 ]
 
 
