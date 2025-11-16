@@ -154,6 +154,9 @@ assembly_instruction_list = [
 'setssbsy', 'sfence', 'sgdt', 'sha1msg1', 'sha1msg2', 'sha1nexte', 'sha1rnds4', 'sha256msg1', 'sha256msg2', 'sha256rnds2', 'shld', 'shrd', 'shufpd', 
 'shufps', 'sidt', 'sldt', 'smsw', 'sqrtpd', 'sqrtps', 'sqrtsd', 'sqrtss', 'stac', 'stc', 'std', 'sti', 'stmxcsr', 'stos', 'stosb', 'stosw', 'stosd',
 'stosq', 'str', 'sttilecfg', 'stui', 'sub', 'subpd', 'subps', 'subsd', 'subss', 'swapgs', 'syscall', 'sysenter', 'sysexit', 'sysret', 
+'tdpbf16ps', 'tdpbssd', 'tdbsud', 'tdpbusd', 'tdpbuud', 'tdpfp16ps', 'test', 'testui', 'tileloadd', 'tileloaddt1', 'tilerelease', 'tilestored', 'tilezero',
+'tpause', 'tzcnt', 
+'ucomisd', 'ucomiss', 'ud', 'uiret', 'umonitor', 'umwait', 'unpckhpd', 'unpckhps', 'unpcklpd', 'unpcklps' 
 ]
 
 
