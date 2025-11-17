@@ -156,7 +156,18 @@ assembly_instruction_list = [
 'stosq', 'str', 'sttilecfg', 'stui', 'sub', 'subpd', 'subps', 'subsd', 'subss', 'swapgs', 'syscall', 'sysenter', 'sysexit', 'sysret', 
 'tdpbf16ps', 'tdpbssd', 'tdbsud', 'tdpbusd', 'tdpbuud', 'tdpfp16ps', 'test', 'testui', 'tileloadd', 'tileloaddt1', 'tilerelease', 'tilestored', 'tilezero',
 'tpause', 'tzcnt', 
-'ucomisd', 'ucomiss', 'ud', 'uiret', 'umonitor', 'umwait', 'unpckhpd', 'unpckhps', 'unpcklpd', 'unpcklps' 
+'ucomisd', 'ucomiss', 'ud', 'uiret', 'umonitor', 'umwait', 'unpckhpd', 'unpckhps', 'unpcklpd', 'unpcklps',
+'vaddph', 'vaddsh', 'valignd', 'valignq', 'vbcstnebf162ps', 'vbcstnesh2ps', 'vblendmpd', 'vblendmps', 'vbroadcast', 'vcmpph', 'vcmpsh', 'vcomish', 'vcompresspd',
+'vcompressps', 'vcvtdq2ph', 'vcvtne2ps2bf16', 'vcvtneebf162ps', 'vcvtneeph2ps', 'vcvtneobf162ps', 'vcvtneoph2ps', 'vcvtneps2bf16', 'vcvtpd2ph', 'vcvtpd2qq',
+'vcvtpd2udq', 'vcvtpd2uqq', 'vcvtph2dq', 'vcvtph2pd', 'vcvtph2ps', 'vcvtph2psx', 'vcvtph2qq', 'vcvtph2udq', 'vcvtph2uqq', 'vcvtph2uw', 'vcvtph2w', 
+'vcvtps2ph', 'vcvtps2phx', 'vcvtps2qq', 'vcvtps2udq', 'vcvtps2uqq', 'vcvtqq2pd', 'vcvtqq2ph', 'vcvtqq2ps', 'vcvtsd2sh', 'vcvtsd2usi', 'vcvtsh2sd', 
+'vcvtsh2si', 'vcvtsh2ss', 'vcvtsh2usi', 'vcvtsi2sh', 'vcvtss2sh', 'vcvtss2usi', 'vcvttpd2qq', 'vcvttpd2udq', 'vcvttpd2uqq', 'vcvttph2dq', 'vcvttph2qq',
+'vcvttph2udq', 'vcvttph2uqq', 'vcvttph2uw', 'vcvttph2w', 'vcvttps2qq', 'vcvttps2udq', 'vcvttps2uqq', 'vcvttsd2usi', 'vcvttsh2si', 'vcvttsh2usi', 'vcvttss2usi',
+'vcvtudq2pd', 'vcvtudq2ph', 'vcvtudq2ps', 'vcvtuqq2pd', 'vcvtuqq2ph', 'vcvtuqq2ps', 'vcvtusi2sd', 'vcvtusi2sh', 'vcvtusi2ss', 'vcvtuw2ph', 'vcvtw2ph', 
+'vdbpsadbw', 'vdivph', 'vdivsh', 'vdpbf16ps', 'verr', 'verw', 'vexpandpd', 'vexpandps', 'vextractf128', 'vextractf32x4', 'vextractf64x2', 'vextractf32x8',
+'vextractf64x4', 'vextracti128', 'vextracti32x4', 'vextracti64x2', 'vextracti32x8', 'vextracti64x4', 'vfcmaddcph', 'vfmaddcph', 'vfcmaddcph', 'vfmaddcph', 
+'vfcmaddcsh', 'vfmaddcsh', 'vfcmulcph', 'vfmulcph', 'vfcmulcsh', 'vfmulcsh', 'vfixupimmpd', 'vfixupimmps', 'vfixupimmsd', 'vfixupimmss', 'vfmadd132pd', 
+'vfmadd213pd', 'vfmadd231pd', 'vf[,N]madd[132,213,231]ph', 'vfmadd132ps', 'vfmadd213ps', 'vfmadd231ps'
 ]
 
 
