@@ -193,7 +193,10 @@ assembly_instruction_list = [
 'vreducesd', 'vreducesh', 'vreducess', 'vrndscalepd', 'vrndscaleph', 'vrndscaleps', 'vrndscalesd', 'vrndscalesh', 'vrndscaless', 'vrsqrt14pd', 'vrsqrt14ps',
 'vrsqrt14sd', 'vrsqrt14ss', 'vrsqrtph', 'vrsqrtsh', 'vscalefpd', 'vscalefph', 'vscalefps', 'vscalefsd', 'vscalefsh', 'vscalefss', 'vscatterdps', 'vscatterdpd',
 'vscatterqps', 'vscatterqpd', 'vsha512msg1', 'vsha512msg2', 'vsha512rnds2', 'vshuff32x4', 'vshuff64x2', 'vshufi32x4', 'vshufi64x2', 'vsm3msg1', 'vsm3msg2', 
-'vsm3rnds2', 'vsm4key4', 'vsm4rnds4', 'vsqrtph', 'vsqrtsh', 'vsubph', 'vsubsh', 'vtestpd', 'vtestps', 'vucomish', 'vzeroall', 'vzeroupper' 
+'vsm3rnds2', 'vsm4key4', 'vsm4rnds4', 'vsqrtph', 'vsqrtsh', 'vsubph', 'vsubsh', 'vtestpd', 'vtestps', 'vucomish', 'vzeroall', 'vzeroupper',
+'wait', 'fwait', 'wbinvd', 'wbnoinvd', 'wrfsbase', 'wrgsbase', 'wrmsr', 'wrmsrlist', 'wrmsrns', 'wrpkru', 'wrssd', 'wrssq', 'wrussd', 'wrussq', 
+'xabort', 'xacquire', 'xrelease', 'xadd', 'xbegin', 'xchg', 'xend', 'xgetbv', 'xlat', 'xlatb', 'xor', 'xorpd', 'xorps', 'xresldtrk', 'xrstor', 'xrstors', 
+'xsave', 'xsavec', 'xsaveopt', 'xsaves', 'xsetbv', 'xsusldtrk', 'xtest'
 ]
 
 
