@@ -95,11 +95,18 @@ class instruction_1_assembly:
 		self.operand1 = self.instruction_token_list[1]
 		self.operand2 = self.instruction_token_list[2]
 		self.operand3 = self.instruction_token_list[3]
+
+		if self.mnemonic == 'aaa': #only in 32-bit mode
+			self.opcode = 37
+		else: self.opcode = ''
+
 	def print(self):
 		print(self.string)
 	def print_tokens(self):
 		for token in self.instruction_token_list:
 			print(token)
+	def print_opcode(self):
+			print(self.opcode)
 
 assembly_instruction_list = [
 'aaa','aad','aam','aas','adc','adcx','add','addpd','addps','addsd','addss','addsubpd','addsubps','adox','aesdec','aesdec128kl','aesdec256kl','aesdeclast','aesdecwide128kl',
@@ -209,6 +216,8 @@ print('mnemonic: ' + test_inst.mnemonic)
 print('operand 1: ' + test_inst.operand1)
 print('operand 2: ' + test_inst.operand2)
 print('operand 3: ' + test_inst.operand3)
+print('opcode: ',end='')
+test_inst.print_opcode()
 
 
 '''
