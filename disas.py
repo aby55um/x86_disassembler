@@ -96,7 +96,7 @@ class instruction_1_assembly:
 		self.operand2 = self.instruction_token_list[2]
 		self.operand3 = self.instruction_token_list[3]
 
-		if self.mnemonic == 'aaa': #only in 32-bit mode
+		if self.mnemonic == 'aaa' and self.zero_operand(): #only in 32-bit mode
 			self.opcode = 37
 		else: self.opcode = ''
 
@@ -107,6 +107,8 @@ class instruction_1_assembly:
 			print(token)
 	def print_opcode(self):
 			print(self.opcode)
+	def zero_operand(self):
+		return self.operand1 == '' and self.operand2 == '' and self.operand3 == ''
 
 assembly_instruction_list = [
 'aaa','aad','aam','aas','adc','adcx','add','addpd','addps','addsd','addss','addsubpd','addsubps','adox','aesdec','aesdec128kl','aesdec256kl','aesdeclast','aesdecwide128kl',
